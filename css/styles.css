@@ -366,3 +366,61 @@ img {
     width: 100%;
   }
 }
+
+.episodeCard {
+  background-color: #ffffff;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  padding: 1.75rem 2rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.episodeCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 18px rgba(74, 144, 226, 0.55);
+  border: 2px solid #6b7c93;
+}
+
+.episodeCardTitle {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #1f8f62;
+  margin: 0 0 1.25rem 0;
+}
+
+.episodeCardDescription {
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: #2b6cb0;
+  font-style: italic;
+  text-align: justify;
+}
+
+.episodeCardDescription p {
+  margin: 0 0 1rem 0;
+}
+
+.episodeCardDescription a {
+  color: #1f8f62;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.episodeCardDescription a:hover {
+  text-decoration: underline;
+}
+
+.audioWrapper {
+  margin-top: 1.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid #eeeeee;
+}
+
+.episodeCardAudio {
+  width: 100%;
+  display: block;
+  outline: none;
+  border-radius: 30px;
+  filter: sepia(100%) saturate(260%) hue-rotate(175deg) brightness(96%);
+}
