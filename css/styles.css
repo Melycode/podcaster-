@@ -176,6 +176,25 @@ img {
   margin-bottom: -1rem;
 }
 
+.podcastCard:active {
+  transform: translateY(-2px) scale(0.99);
+}
+
+
+a:focus-visible {
+  outline: 2px solid #1f8f62;
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+
+a:active {
+  opacity: 0.75;
+}
+
+.searchInput:active {
+  border-color: #175c40;
+}
+
 
 
 
@@ -358,14 +377,7 @@ img {
   text-decoration: underline;
 }
 
-@media (max-width: 768px) {
-  .layoutDetail {
-    flex-direction: column;
-  }
-  .sidebar {
-    width: 100%;
-  }
-}
+
 
 .episodeCard {
   background-color: #ffffff;
@@ -423,4 +435,17 @@ img {
   outline: none;
   border-radius: 30px;
   filter: sepia(100%) saturate(260%) hue-rotate(175deg) brightness(96%);
+}
+
+@media (max-width: 768px) {
+  .podcastGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .layoutDetail {
+    flex-direction: column;
+  }
+  .sidebar {
+    width: 100%;
+  }
 }
