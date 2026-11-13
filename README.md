@@ -91,7 +91,7 @@ This project does not require installing any dependencies, since it is built ent
 ### 1. Clone the repository
 
 ```bash
-git clone [https://github.com/Melycode/podcaster-.git](https://github.com/Melycode/podcaster-.git)
+git clone https://github.com/Melycode/podcaster-.git
 cd podcaster-
 ```
 ### 2. Open the project
